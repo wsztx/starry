@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.universe.starry.system.mapper.LogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.universe.starry.system.entity.Log">
+        <id column="id" property="id" />
+        <result column="status" property="status" />
+        <result column="operate_time" property="operateTime" />
+        <result column="operate_user_id" property="operateUserId" />
+        <result column="model_type" property="modelType" />
+        <result column="operate_type" property="operateType" />
+        <result column="operate_object" property="operateObject" />
+        <result column="operate_result" property="operateResult" />
+        <result column="time_span" property="timeSpan" />
+        <result column="operate_ip" property="operateIp" />
+        <result column="operate_mac" property="operateMac" />
+        <result column="description" property="description" />
+    </resultMap>
+
+</mapper>
