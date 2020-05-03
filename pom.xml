@@ -164,6 +164,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.universe.starry.start.WebApplication</mainClass>
+                    <layout>ZIP</layout>
                     <classifier>execute</classifier>
                 </configuration>
             </plugin>
