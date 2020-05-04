@@ -17,7 +17,7 @@ public class CacheController extends BasicController {
 	@Autowired
 	private CacheService cacheService;
 	
-    @RequestMapping(value = "/clear", method = RequestMethod.POST)
+    @RequestMapping(value = "/clear", method = RequestMethod.GET)
     public Response clear(){
     	cacheService.clearCache();
         return success();
